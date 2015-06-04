@@ -66,7 +66,7 @@ def color(text, foreground=None, background=None, effect=None):
     extra_effects = []
 
     if foreground and foreground.lower() in COLORS:
-        foreg_color = globals()['fore_' + foreground.lower()]
+        foreg_color = globals()['fore_' + foreground.lower()]  #globals()是一个全局变量的字典
     if background and background.lower() in COLORS:
         backg_color = globals()['back_' + background.lower()]
     if effect:

@@ -71,12 +71,12 @@ class Shanbay(object):
 
         if not r_get.ok:
             return
-        print r_get.json()
+
         # 更新 cookies
         self.cookies.update(r_get.cookies.get_dict())
         return r_get.json()
 
-    #i am confused by this, why shoud i only use post, i can add the parms in the url
+
     def add_word(self, api, id):
         """收藏单词
         """

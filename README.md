@@ -7,6 +7,8 @@ fork自[mozillazg](https://github.com/mozillazg/PyShanb)
 
 原来的代码使用的一些扇贝网的API有一些已经不支持了，将其全部换成了新的API，API可以参考[这里](http://www.shanbay.com/developer/wiki/api_v1/)
 
+原来代码中取pyshabay.conf文件路径依赖于环境变量HOME，这样不好，做了修改
+
 把发布工具，生成doc，爱词霸，有道等这些都去掉了，只剩下了代码。
 
 我没有windows的系统，所以把windows相关的也删掉了
@@ -81,7 +83,3 @@ fork自[mozillazg](https://github.com/mozillazg/PyShanb)
       --disable-english     disable english definition
 
 
-
-
-
-图标版权归[扇贝网](http://www.shanbay.com)所有.
