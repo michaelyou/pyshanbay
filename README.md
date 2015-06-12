@@ -2,9 +2,6 @@ PyShanb：命令行下的扇贝词典
 ===========================
 
 
-fork自[mozillazg](https://github.com/mozillazg/PyShanb)
-
-
 原来的代码使用的一些扇贝网(shanbay)的API有一些已经不支持了，将其全部换成了新的API，API可以参考[这里](http://www.shanbay.com/developer/wiki/api_v1/)
 
 原来代码中取pyshabay.conf文件路径依赖于环境变量HOME，这样不好，做了修改

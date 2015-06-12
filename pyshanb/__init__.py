@@ -11,9 +11,9 @@ import subprocess
 
 __title__ = 'pyshanb'
 __version_info__ = (0, 6, 3, 'final', 0)
-__author__ = 'mozillazg'
+__author__ = 'God'
 __license__ = 'MIT'
-__copyright__ = 'Copyright (c) 2014 mozillazg'
+__copyright__ = 'Copyright (c) 2014 ohmygodß'
 
 
 # modified from django(https://github.com/django/django/)
